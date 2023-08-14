@@ -5,6 +5,7 @@ import { Builds } from "./components/builds"
 import { Farms } from "./components/farms"
 import { Dicas } from "./components/dicas"
 import { Ferramentas } from "./components/ferramentas"
+import { Buildsmapper } from "./components/buildsmapper"
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/farms" element={<Farms/>} />
         <Route path="/dicas" element={<Dicas/>} />
         <Route path="/ferramentas" element={<Ferramentas/>} />
+        <Route path="/buildsmapper" element={<Buildsmapper/>} />
       </Routes>
       </div>
     </BrowserRouter>
