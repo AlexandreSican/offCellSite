@@ -10,7 +10,7 @@ export const Buildsallrounder = () => {
             className="w-[350px]" />
         </div>
         <div className="bg-gray-300 flex px-6 items-center w-full rounded-lg ">
-          <h1 className="font-bold text-xl">Dicas para iniciar</h1>
+          <h1 className="font-bold text-xl">Builds All Rounder</h1>
         </div>
       </div>
       <div className="bg-gray-300 w-full rounded-lg mt-4">
