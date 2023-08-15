@@ -1,3 +1,4 @@
+import { Database, VideoCamera } from "@phosphor-icons/react"
 import { Cards, Coins, Lightbulb, MagicWand } from "phosphor-react"
 import { Link } from "react-router-dom"
 
@@ -7,6 +8,19 @@ export const Categorias = () => {
       <div className="flex w-full max-w-7xl">
         <img src="https://github.com/AlexandreSican/offCellSite/blob/main/offAvatarInv.png?raw=true" alt=""
           className="w-[300px]" />
+        <div className="flex justify-end items-center text-white w-full gap-12">
+          <h1 className="uppercase ">Minha build: EA Balista Elementalist </h1>
+          <div className="flex gap-8">
+            <div className="flex justify-center items-center">
+              <a href="#" target="_blank"><Database size={52} color="#e50b0b" weight="fill" /></a>
+              <h1>PoB</h1>
+            </div>
+            <div className="flex justify-center items-center gap-2">
+              <a href="#" target="_blank"><VideoCamera size={52} color="#e50b0b" weight="fill" /></a>
+              <h1>Vídeo / Guide</h1>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="bg-gray-300 h-12 flex px-6 items-center w-full">
         <h1 className="font-bold text-xl">Categorias</h1>
