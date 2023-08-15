@@ -6,6 +6,11 @@ import { Farms } from "./components/farms"
 import { Dicas } from "./components/dicas"
 import { Ferramentas } from "./components/ferramentas"
 import { Buildsmapper } from "./components/buildsmapper"
+import { Buildsallrounder } from "./components/buildsallrounder"
+import { Buildsbosser } from "./components/buildsbosser"
+import { Buildsnewbiefriendly } from "./components/buildsnewbiefriendly"
+import { Buildproblemaseu } from "./components/buildsproblemaseu"
+import { Buildsmodezone } from "./components/buildsmodezone"
 
 
 
@@ -23,6 +28,11 @@ function App() {
         <Route path="/dicas" element={<Dicas/>} />
         <Route path="/ferramentas" element={<Ferramentas/>} />
         <Route path="/buildsmapper" element={<Buildsmapper/>} />
+        <Route path="/buildsallrounder" element={<Buildsallrounder/>} />
+        <Route path="/buildsbosser" element={<Buildsbosser/>} />
+        <Route path="/buildsnewbiefriendly" element={<Buildsnewbiefriendly/>} />
+        <Route path="/buildproblemaseu" element={<Buildproblemaseu/>} />
+        <Route path="/Buildsmodezone" element={<Buildsmodezone/>} />
       </Routes>
       </div>
     </BrowserRouter>

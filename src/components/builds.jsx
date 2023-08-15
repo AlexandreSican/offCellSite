@@ -17,8 +17,8 @@ export const Builds = () => {
           key={e.id}
           className="flex w-full bg-gray-900 my-2 rounded-md p-4 hover:bg-gray-500 transition-colors"
         >
-            <Link to={e.para}>
-            <div className="flex items-center gap-9">
+            <Link to={e.para} className="w-full">
+            <div className="flex items-center gap-9 w-full">
               {e.icone}
               <h1 className="text-gray-100 uppercase">{e.nome}</h1>
             </div>
